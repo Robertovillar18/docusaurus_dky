@@ -1,0 +1,15 @@
+{
+  "extends": "../../tsconfig.base.client.json",
+  "compilerOptions": {
+    "rootDir": "src",
+    "outDir": "lib",
+    "tsBuildInfoFile": "lib/.tsbuildinfo-client"
+  },
+  "include": [
+    "src/theme/",
+    "src/*.d.ts",
+    "src/registerSw.ts",
+    "src/renderReloadPopup.tsx"
+  ],
+  "exclude": ["**/__tests__/**"]
+}
